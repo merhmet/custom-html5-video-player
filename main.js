@@ -26,7 +26,7 @@ const backwardSate = document.querySelector(".state-backward");
 const forwardSate = document.querySelector(".state-forward");
 const loader = document.querySelector(".custom-loader");
 
-let isPlaying = false,
+let isPlaying = true,
   mouseDownProgress = false,
   mouseDownVol = false,
   isCursorOnControls = false,
